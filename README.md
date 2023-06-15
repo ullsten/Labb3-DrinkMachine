@@ -1,4 +1,4 @@
-# Labb3-DrinkMachine
+# Labb3-Design Patterns DrinkMachine
 Follow design pattern and implement more drinks.
 # Om uppgiften
 
