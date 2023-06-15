@@ -11,7 +11,7 @@ namespace Labb3_DrinkMachine
     {
         public IWarmDrink Prepare(int total)
         {
-            Console.WriteLine($"Pour {total} ml the best coffee in your cup");
+            Console.WriteLine($"Pour {total} ml of the best coffee in your cup");
             return new Coffee();
         }
     }

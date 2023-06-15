@@ -7,12 +7,12 @@ using Labb3_DrinkMachine.Interfaces;
 
 namespace Labb3_DrinkMachine
 {
-    internal class Chocolate : IWarmDrink
+    internal class TeaFactory : IWarmDrinkFactory
     {
-        public void Consume()
+        public IWarmDrink Prepare(int total)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Grandma's chocolate is served! Enjoy!");
+            Console.WriteLine($"Himalayan tea with {total} ml is served by Red Panda Heidi!");
+            return new Tea();
         }
     }
 }
